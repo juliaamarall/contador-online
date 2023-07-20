@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Roboto+Mono:ital,wght@0,200;1,100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    color: aliceblue;
+}
+body{
+    background-image: linear-gradient(to left, rgb(255, 189, 6), red);
+}
+header{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    letter-spacing: 3px;
+}
+
+main{
+ align-items: center;
+ text-align: center;
+ display: flex;
+ justify-content: center;
+ margin: auto;
+ position: relative;
+ top: 20vh;
+ font-size: 50px;
+ background: transparent;
+ box-shadow: 2px 3px 2px 3px rgba(0, 0, 0, 0.479);
+ width: 800px;
+ height: 300px;
+ border-radius: 20px;
+}
+
+#pai{
+    display: flex;
+    flex-direction: column;
+}
+
+main button{
+    color: black;
+    font-size: 30px;
+    background: transparent;
+    border-radius: 5px;
+    padding: 10px;
+}
